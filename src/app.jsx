@@ -1,6 +1,7 @@
 import React from "react"
 import Mynax from "./mynax"
 import Statecomponent from "./statecomponent"
+import ComponentLife from "./componentLife"
 
 
 class App extends React.Component
@@ -13,6 +14,7 @@ class App extends React.Component
         <Mynax nav={var1} title="学习指导"/>
         <Mynax nav={var2} title="学习误导"/>
         <Statecomponent />
+        <ComponentLife />
         </div>)
 
 
