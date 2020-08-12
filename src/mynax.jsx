@@ -2,6 +2,7 @@ import React from "react"
 
 export default class Mynax extends React.Component {
 
+    
 
 
     render() {
