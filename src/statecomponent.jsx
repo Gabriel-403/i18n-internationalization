@@ -15,10 +15,13 @@ export default class statecomponent extends React.Component {
         this.setState({ count: this.state.count -= 1 })
     }
     increment() {
-        this.setState({ count: this.state.count += 1 })
+        this.setState({ count: this.state.count += 1 },()=>{console.log(this.state.count)})//异步
     }
 
-    clickhandle () {
+    setasync(state){return new Promise((resolve)  =>{this.setState(state,resolve)});}//同步
+
+
+    clickhandle =()=> {
         console.log(this)
 
     }
