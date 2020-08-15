@@ -21,7 +21,7 @@ class App extends React.Component {
     render() {
       
         const var1 = ["首页", "学习"];
-        const var2 = ["次页", "荒芜"];
+        const var2 = ["次页", "不学习"];
         return (<div>
             <select id="language" value={this.state.language} onChange={(e) => this.changelanguage(e)}>
                 {this.state.languages.map((ele, index) => {
