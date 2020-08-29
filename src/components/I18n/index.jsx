@@ -9,10 +9,10 @@ const i12n = {
 
 export default class I18n extends React.Component {
 
-    constructor(props) {
-        super(props)
+    //constructor(props) {
+        //super(props)
 
-    }
+    //}
 
 
     render() {
