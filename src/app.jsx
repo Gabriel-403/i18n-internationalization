@@ -36,7 +36,7 @@ class App extends React.Component {
             headers: { "Content-Type": "multipart/form-data" }
         };
 
-        axios.post('/api', fm, config);
+        axios.post('/api/file', fm, config);
     }
 
 
