@@ -5,6 +5,7 @@ import ComponentLife from "./componentLife"
 import IfDemo from "./ifdemo"
 import KeyDemo from "./keydemo"
 import I18n from "./components/I18n"
+import Redux from "./redux.jsx"
 
 import axios from 'axios'
 
@@ -63,6 +64,8 @@ class App extends React.Component {
             <ComponentLife />
             <IfDemo />
             <KeyDemo />
+            <Redux />
+          
         </div>)
 
 
