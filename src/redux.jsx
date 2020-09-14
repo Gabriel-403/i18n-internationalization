@@ -7,9 +7,10 @@ class Redux extends Component {
 
         console.log(store.getState());
 
+        this.state=store.getState();
     }
     render() {
-        return (<h1>5555555555</h1>);
+        return (<h1>{this.state.InputVuale}</h1>);
     }
 }
 

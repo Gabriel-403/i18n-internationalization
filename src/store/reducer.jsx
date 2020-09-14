@@ -1,8 +1,8 @@
-const defaultState={
-    InputVuale:111111111111
+const defaultState = {
+    InputVuale: "redux 仓库值"
 
 }
-export default (state=defaultState,action)=>{
-    
-return state
+export default (state = defaultState, action) => {
+
+    return state
 }
