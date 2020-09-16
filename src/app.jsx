@@ -31,7 +31,8 @@ class App extends React.Component {
         const file = files[0];
 
         const fm = new FormData();
-        fm.append(file.name, file);
+        fm.append("File", file);
+        fm.append('fileName', file.name);
 
         const config = {
             headers: { "Content-Type": "multipart/form-data" }
